@@ -1,0 +1,513 @@
+/* navigation bar */
+.nav {
+	text-decoration: none;
+	color: #eef1ea;
+	padding: 1vw;
+	font-family: "Century Gothic";
+	font-weight: bold;
+}
+a:hover{
+	color: #03071e;
+}
+nav{
+	margin-top: 1vw;
+	width: 75vw;
+	margin-left: 7vw;
+
+}
+ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+li {
+	list-style-type: none;
+	margin: 0 1vw;
+	font-size: 17px
+
+
+}
+.li-list {
+	list-style-type: circle;
+	color: #495057;
+	font-family: "Calibri";
+	font-weight: lighter;
+}
+.link-two {
+	text-decoration: none;
+	color: #fbfcfd;
+	font-family: "Calibri";
+	font-size: 17px;
+	font-weight: lighter;
+}
+.link-two:hover {
+	color: #d80000;
+}
+.logo:hover {
+	opacity: 0.7;
+
+}
+.navbar {
+	background-color: #0b090a;
+	width: 100%;
+	height: 15vh;
+	top: 0;
+	right: 0;
+	left: 0;
+	position: absolute;
+}
+.navbar1 {
+	background-color: #d80000;
+	width: 100%;
+	height: 8vh;
+	margin-top: 10vh;
+	right: 0;
+	left: 0;
+	position: absolute;
+
+}
+.links img:hover {
+	background-color: #d00000;
+	border-radius: 25px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.right {
+	position: absolute;
+	margin-left: 75vw;
+
+}
+.right1 {
+	position: absolute;
+	margin-left: 80vw;
+
+}
+.right2 {
+	position: absolute;
+	margin-left: 85vw;
+
+}
+
+/* Footer */
+.footerlinks {
+	width: 100%;
+	height: 250px;
+	background-color: #495057;
+	left: 0;
+	right: 0;
+	position: absolute;
+	
+
+
+}
+.shadow:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+}
+.footer {
+	width: 100%;
+	height: 40px;
+	background-color: #0b090a;
+	left: 0;
+	right: 0;
+	
+	position: absolute;
+	font-family: "Bookman Old Style";
+	color: #fbfcfd;
+	font-size: 13px;
+	text-align: center;
+	padding-top: 1vw;
+	
+
+}
+.opa:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}
+.padding-7vw {
+	padding-left: 7vw; 
+}
+.top-pad {
+	padding-top: 1vw;
+}
+h1 {
+	font-family: "Aura";
+	margin: 0;
+	padding: 0;
+	color: #fbfcfd;
+	font-size: 70px;
+}
+.h2 {
+	font-family: "Calibri";
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	font-weight: bold;
+}
+.h2-link {
+	font-family: "Calibri";
+	margin: 0;
+	padding: 0;
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 0.5;
+}
+.spacing {
+	letter-spacing: 3%;
+}
+small {
+	font-family: "Calibri";
+	margin: 0;
+	padding: 0;
+	color: #fbfcfd;
+	font-size: 25px;
+	font-weight: lighter;
+	letter-spacing: 2px;
+}
+.p-gray {
+	color: #495057;
+	font-family: "Calibri";
+	font-weight: lighter;
+	font-size: 17px;
+}
+.links-home {
+	font-family: "Calibri";
+	margin: 0;
+	padding: 0;
+	color: #fbfcfd;
+	font-size: 20px;
+	font-weight: lighter;
+}
+.hr-red {
+	border: 3px solid red;
+	width: 20%;
+	border-radius: 10px;
+}
+
+.content {
+	padding: 2vw;
+}
+h4 {
+	font-family: "Aura";
+	margin: 0;
+	padding: 0;
+	color: #fbfcfd;
+	font-size: 30px;
+}
+.p1 {
+	font-family: "Arial";
+	font-size: 80%;
+	color: #fbfcfd;
+}
+#myVideo {
+  position: absolute;
+  right: 0;
+  min-width: 100%;
+  margin-top: 118px;
+  height: 100vh;
+}
+.content1 {
+  position: absolute;
+  background-size: cover;
+  background: rgba(0, 0, 0, 0.7);
+  color: #f1f1f1;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  margin-top: 118px;
+}
+
+/* background */
+
+.table-one {
+	background-image: url(Images/bg.jpg);
+	background-size: cover;
+	position:absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	margin-top: 65px;
+	height: 800px;
+	margin-top: 720px;
+}
+.table-about1 {
+	background-image: url(Images/gym.jpg);
+	background-color: rgba(0,0,0,0.7);
+	background-size: cover;
+	background-blend-mode: darken;
+	position:absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 600px;
+	margin-top: 117px;
+}
+.table-about2 {	
+	background-color: #fbfcfd;
+	position:absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 600px;
+	margin-top: 717px;
+}
+.table-about3 {	
+	background-color: #0b090a;
+	position:absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 600px;
+	margin-top: 1317px;
+}
+.table-about4 {	
+	background-color: #fbfcfd;
+	position:absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 600px;
+	margin-top: 1917px;
+}
+.table-report1 {
+	background-image: url(Images/bg-reports.jpg);
+	background-size: cover;
+	position:absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 300px;
+	margin-top: 118px;
+}
+.table-report2 {
+	background-color: #fbfcfd;
+	position:absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 600px;
+	margin-top: 418px;
+}
+.table-report3 {
+	background-color: #fbfcfd;
+	position:absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 600px;
+	margin-top: 1118px;
+}
+
+.table-link1 {
+	background-image: url(Images/bg-link.jpg);
+	background-size: cover;
+	position:absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 300px;
+	margin-top: 118px;
+}
+.table-link2 {
+	background-color: #0b090a;
+	position:absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 600px;
+	margin-top: 418px;
+}
+.table-link3 {
+	background-color: #f2f1ed;
+	position:absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 600px;
+	margin-top: 1118px;
+}
+
+.table-developer1 {
+	background-image: url(Images/bg-developer.jpg);
+	background-size: cover;
+	position:absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 300px;
+	margin-top: 118px;
+}
+.table-developer2 {
+	background-color: #f2f1ed;
+	position:absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 800px;
+	margin-top: 418px;
+}
+
+.table-team1 {
+	background-image: url(Images/bg-team.jpg);
+	background-size: cover;
+	position:absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 300px;
+	margin-top: 118px;
+}
+.table-team2 {
+	background-color: #f2f1ed;
+	position:absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 600px;
+	margin-top: 418px;
+}
+.table-team3 {
+	background-color: #f2f1ed;
+	position:absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 300px;
+	margin-top: 1018px;
+}
+
+.table-news1 {
+	background-image: url(Images/bg-news.jpg);
+	background-size: cover;
+	position:absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 300px;
+	margin-top: 118px;
+}
+.table-news2 {
+	background-color: #f2f1ed;
+	position:absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 1300px;
+	margin-top: 418px;
+}
+
+.h3-home {
+	font-family: "Arial";
+	margin: 0;
+	padding-bottom: 1vw;
+	color: #0b090a;
+	font-size: 25px;
+	font-weight: bold;
+}
+.h3-about {
+	font-family: "Aura";
+	letter-spacing: 0.9;
+	margin: 0;
+	padding-bottom: 1vw;
+	color: #0b090a;
+	font-size: 50px;
+	
+}
+.h3-about-white {
+	font-family: "Aura";
+	letter-spacing: 0.9;
+	margin: 0;
+	padding-bottom: 1vw;
+	color: #fbfcfd;
+	font-size: 50px;
+	
+}
+.p-black {
+	font-family: "Calibri";
+	margin: 0;
+	padding: 0;
+	padding-top: 2vw;
+	color: #0b090a;
+	font-size: 19px;
+	letter-spacing: 2px;
+}
+.p-white {
+	font-family: "Calibri";
+	margin: 0;
+	padding: 0;
+	padding-top: 2vw;
+	color: #fbfcfd;
+	font-size: 19px;
+	letter-spacing: 2px;
+}
+.size-home {
+	font-size: 17px;
+	color: #0b090a;
+}
+.size-home-white {
+	font-size: 17px;
+	color: #fbfcfd;
+}
+.padding-home {
+	padding: 2vw;
+}
+.padding-report {
+	padding: 1vw;
+}
+
+/*  transition  */
+
+.img-hover-zoom {
+	width: 100%;
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.1);
+  filter: grayscale(20%);
+}
+
+/* Slow-motion Zoom Container */
+.img-hover-zoom--slowmo img {
+  transform-origin: 50% 65%;
+  transition: transform 5s, filter 3s ease-in-out;
+  filter: brightness(150%);
+}
+
+/* The Transformation */
+.img-hover-zoom--slowmo:hover img {
+  filter: brightness(100%);
+  transform: scale(1.1);
+}
+
+.img-hover-frame {
+	width: 100%;
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-frame iframe {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-frame:hover iframe {
+  transform: scale(1.1);
+  filter: grayscale(20%);
+}
+
+
+.img-link {
+	background-color: #d00000;
+	border-radius: 20px;
+	margin-left: 5px;
+}
+.img-link:hover {
+	background-color: #0b090a;
+	cursor: pointer;
+}
